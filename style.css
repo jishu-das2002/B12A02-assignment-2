@@ -145,6 +145,47 @@ nav ul li a{
     height: 50px;
 }
 
+/* card section end */
+/* plant lover section start */
+
+.plant-lover-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    max-width: 1140px;
+    max-height: 597px;
+    margin: auto;
+    margin-top: 211px;
+    position: relative;
+}
+
+.plant-lover-section .flower-store{
+    width: 540px;
+    height: 595px;
+}
+
+.trusted-badge{
+    position: absolute;
+    width: 286px;
+    height: 286px;
+    top: -132px;
+    right: 456px;
+}
+
+.plant-lover-title{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.plant-lover-list ul li{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
 
 
 /* media section for mobile */
@@ -248,4 +289,30 @@ nav ul li a{
     .card-btn{
        width: 100%; 
     }
+
+    /* card section end */
+    /* plant lover section start */
+
+    .plant-lover-section{
+        flex-direction: column;
+        width: 361px;
+        height: 648px;
+        margin-top: 41px;
+    }
+
+    .plant-lover-section img{
+        width: 100%;
+        height: 396px;
+    }
+
+    .plant-lover-title{
+        width: 90%;
+        font-size: 24px;
+    }
+    .plant-lover-list ul li{
+        width: 90%;
+        font-size: 14px;
+    }
+
+    /* plant lover section end */
 }
