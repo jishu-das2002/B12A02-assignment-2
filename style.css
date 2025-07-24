@@ -83,8 +83,67 @@ nav ul li a{
 /* banner section end */
 /* card section start */
 
+.card-section{
+    max-width: 1140px;
+    margin: auto;
+}
 
+.card-title{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
 
+.card-description{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    font-weight: 400;
+    width: 888px;
+    margin: auto;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 49px;
+    gap: 20px;
+}
+
+.cards{
+    max-width: 270px;
+    max-height: 484px;
+    margin-bottom: 30px;
+}
+
+.cards img{
+    width: 270px;
+    height: 322px;
+}
+
+.flower-name{
+    text-align: center;
+    color: rgb(17, 17, 17);
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.flower-price{
+    text-align: center;
+    color: rgb(17, 17, 17);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.card-btn{
+    text-align: center;
+    background: rgb(233, 90, 8);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    height: 50px;
+}
 
 
 
@@ -99,7 +158,7 @@ nav ul li a{
         max-width: 361px;
         max-height: 38px;
         margin: auto;
-        gap: 185px;
+        gap: 145px;
     }
 
     nav img{
@@ -114,6 +173,7 @@ nav ul li a{
     .cart{
         max-width: 113px;
         max-height: 24px;
+        font-size: 16px;
     }
 
     /* navbar section end */
@@ -126,7 +186,7 @@ nav ul li a{
 
     .banner-container{
         max-width: 361px;
-        margin: auto;
+        padding-left: 16px;
     }
     .banner-section img{
         width: 100%;
@@ -140,7 +200,52 @@ nav ul li a{
 
     .banner-description{
         font-size: 14px;
+        max-width: 342px;
+    }
+
+    /* banner section end */
+    /* card section start */
+
+    .card-section{
+        max-width: 100%;
+    }
+
+    .card-title{
+        font-size: 24px;
+        max-width: 393px;
+    }
+
+    .card-description{
+        font-size: 14px;
+        max-width: 336px;
+        margin-bottom: 28px;
+    }
+
+    .card-container{
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+        gap: 10px;
+        padding-left: 14px;
+    }
+
+    .cards{
+        width: 90%;
+    }
+
+    .cards img{
+        width: 100%;
+        height: 196.5px;
+    }
+
+    .flower-name{
         width: 100%;
     }
-  
+
+    .flower-price{
+        width: 100%;
+    }
+
+    .card-btn{
+       width: 100%; 
+    }
 }
