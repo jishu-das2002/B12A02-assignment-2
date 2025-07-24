@@ -7,6 +7,12 @@
   font-style: normal;
 }
 
+.noto-serif-normal {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 /* navbar section style start */
 nav{
     display: flex;
@@ -44,8 +50,41 @@ nav ul li a{
     font-weight: 400;
 }
 
+
 /* navbar section style end */
 /* Banner section style start */
+
+.banner-section{
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.banner-title{
+    color: #000000;
+    font-size: 65px;
+    font-weight: 700;
+    width: 517px;
+}
+
+.flower{
+    color: #E95A08;
+}
+.banner-description{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    font-weight: 400;
+    width: 570px;
+}
+
+/* banner section end */
+/* card section start */
+
+
+
 
 
 
@@ -55,7 +94,7 @@ nav ul li a{
     .hide{
         display: none;
     }
-
+     /* navbar section start */
     nav{
         max-width: 361px;
         max-height: 38px;
@@ -76,4 +115,32 @@ nav ul li a{
         max-width: 113px;
         max-height: 24px;
     }
+
+    /* navbar section end */
+    /* banner section start */
+
+    .banner-section{
+        flex-direction: column-reverse;
+        margin-top: 28px;
+    }
+
+    .banner-container{
+        max-width: 361px;
+        margin: auto;
+    }
+    .banner-section img{
+        width: 100%;
+        margin-bottom: 28px;
+    }
+    .banner-title{
+        width: 317px;
+        font-size: 24px;
+        font-weight: 700;  
+    }
+
+    .banner-description{
+        font-size: 14px;
+        width: 100%;
+    }
+  
 }
