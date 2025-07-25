@@ -418,12 +418,14 @@ nav ul li a{
     .banner-title{
         width: 317px;
         font-size: 24px;
-        font-weight: 700;  
+        font-weight: 700;
+        margin: auto;  
     }
 
     .banner-description{
         font-size: 14px;
         max-width: 342px;
+        margin: auto;
     }
 
     /* banner section end */
@@ -436,6 +438,7 @@ nav ul li a{
     .card-title{
         font-size: 24px;
         max-width: 393px;
+        margin: auto;
     }
 
     .card-description{
@@ -479,6 +482,7 @@ nav ul li a{
         flex-direction: column;
         width: 361px;
         height: 648px;
+        margin: auto;
     }
 
     .plant-lover-section .flower-store{
@@ -556,6 +560,7 @@ nav ul li a{
         width: 100%;
         text-align: center;
         height: 276px;
+        margin: auto;
     }
 
     .join-section-title{
@@ -592,6 +597,14 @@ nav ul li a{
 
     .footer-section ul li{
         width: 128px;
+    }
+
+    .social-media-icon{
+        width: 237px;
+    }
+
+    .social-media-icon img{
+        padding-left: 24px;
     }
 
     /* footer section end */
